@@ -1,3 +1,4 @@
+
 <?php namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -6,7 +7,6 @@ use Illuminate\Support\Facades\Cache;
 use App\Maker;
 use App\Vehicle;
 use App\Http\Requests\CreateMakerRequest;
-
 class MakerController extends Controller {
 	public function __construct()
 	{
